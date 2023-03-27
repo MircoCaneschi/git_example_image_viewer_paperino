@@ -9,6 +9,8 @@ public:
 
     ~BitmapImage();
 
+    bool save(std::string name);
+
     bool load(std::string name);
 
 private:
