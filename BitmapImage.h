@@ -13,6 +13,8 @@ public:
 
     bool load(std::string name);
 
+    bool resie(int width, int height);
+
 private:
     int width, height;
     char channels;
